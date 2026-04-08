@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  my-stack:
+  - apiVersion: v2
+    created: "2026-04-08T23:18:42.3446797+06:00"
+    dependencies:
+    - name: frontend
+      repository: file://./charts/frontend
+      version: 0.1.0
+    - name: backend
+      repository: file://./charts/backend
+      version: 0.1.0
+    digest: 188b29d06f8de13b1ff7e72993a40eb4b164f5688084d9cfb882d1d962df6063
+    name: my-stack
+    urls:
+    - https://github.com/mosk4t/helm-stack-lab8/my-stack-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-04-08T23:18:42.3431197+06:00"
