@@ -5,5 +5,8 @@ dependencies:
 - name: backend
   repository: file://./charts/backend
   version: 0.1.0
-digest: sha256:334ade416ec49368cce3940943f9abba9b982cef640cb32ff5e459795e265724
-generated: "2026-04-08T20:54:17.1290876+06:00"
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 15.5.0
+digest: sha256:2967ac085405538d69979b35e649cfebb5703f7a082f5a0fff679c07e6d56e3c
+generated: "2026-04-16T12:15:35.8755095+06:00"
