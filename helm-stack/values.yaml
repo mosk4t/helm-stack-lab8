@@ -1,7 +1,7 @@
 frontend:
   replicaCount: 2
 backend:
-  replicaCount: 2
+  replicaCount: 1
 postgresql:
   enabled: false 
 
